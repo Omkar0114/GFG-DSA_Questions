@@ -1,4 +1,3 @@
-
 class Solution {
     int binarysearch(int arr[], int n, int k){
         // code here
@@ -8,7 +7,7 @@ class Solution {
         
         while(start <=end) {
             int mid = start + (end - start) /2;
-            
+            //condition:
             if (k < arr[mid]) {
                 end = mid -1;
             } else if (k > arr[mid]) {
